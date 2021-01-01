@@ -63,7 +63,7 @@
                   (remove val (get-db (list parm inst))
                           :key #'first)))))
 
-(defconstant +help-string+
+(defvar +help-string+
   "~&Type one of the following:
  ?     - to see possible answers for this parameter
  rule  - to show the current rule
